@@ -199,11 +199,11 @@ Example:
 
 ```css
 .selector {
-  background-image: linear-gradient(#fff, #ccc),
-    linear-gradient(#f3c, #4ec);
-  box-shadow:
-    1px 1px 1px #333,
+  box-shadow: 1px 1px 1px #333,
     2px 2px 1px 1px #ccc inset;
+  background-image:
+    linear-gradient(#fff, #ccc),
+    linear-gradient(#f3c, #4ec);
 }
 ```
 
