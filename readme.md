@@ -87,34 +87,33 @@ Comment style should be simple and consistent within a single code-base.
 Sections comments:
 
 ```css
-/* ====================================================================== *\
+/* ======================================================================
    > 1st Section Title
-\* ====================================================================== */
+   ====================================================================== */
 
-/* ============================================================ *\
+/* ============================================================
    >> 2nd Section Title
-\* ============================================================ */
+   ============================================================ */
 
-/* -------------------------------------------------- *\
+/* --------------------------------------------------
    >>> 3rd Section Title
-\* -------------------------------------------------- */
+   -------------------------------------------------- */
 
-/* ---------------------------------------- *\
+/* ----------------------------------------
    >>>> 4th Section Title
-\* ---------------------------------------- */
+   ---------------------------------------- */
 ```
 
 Single-line and multi-line comments:
 
 ```css
-/*
-** The first sentence of the multi-line comment starts here and continues on
-** this line for a while finally concluding here at the end of this paragraph.
-**
-** The multi-line comment is ideal for more detailed explanations and
-** documentation. It can include example HTML, URLs, or any other information
-** that is deemed necessary or useful.
-*/
+/* The first sentence of the multi-line comment starts here and continues on
+ * this line for a while finally concluding here at the end of this paragraph.
+ *
+ * The multi-line comment is ideal for more detailed explanations and
+ * documentation. It can include example HTML, URLs, or any other information
+ * that is deemed necessary or useful.
+ */
 
 /* This is a single-line comment. */
 ```
@@ -304,29 +303,28 @@ throughout a declaration block.
 An example of various conventions.
 
 ```css
-/* ====================================================================== *\
-     Grid Layout
-\* ====================================================================== */
 
-/*
-** Column layout with horizontal scroll.
-**
-** This creates a single row of full-height, non-wrapping columns that can
-** be browsed horizontally within their parent.
-**
-** Example HTML:
-**
-** <div class="grid">
-**   <div class="cell cell-3"></div>
-**   <div class="cell cell-3"></div>
-**   <div class="cell cell-3"></div>
-** </div>
-*/
+/* ======================================================================
+   > Grid Layout
+   ====================================================================== */
 
-/*
-** Grid container.
-** Must only contain `.cell` children.
-*/
+/* Column layout with horizontal scroll.
+ *
+ * This creates a single row of full-height, non-wrapping columns that can
+ * be browsed horizontally within their parent.
+ *
+ * Example HTML:
+ *
+ * <div class="grid">
+ *   <div class="cell cell-3"></div>
+ *   <div class="cell cell-3"></div>
+ *   <div class="cell cell-3"></div>
+ * </div>
+ */
+
+/* Grid container.
+ * Must only contain `.cell` children.
+ */
 
 .grid {
   height: 100%;
@@ -336,10 +334,9 @@ An example of various conventions.
   white-space: nowrap;
 }
 
-/*
-** Grid cells.
-** No explicit width by default. Extend with `.cell-n` classes.
-*/
+/* Grid cells.
+ * No explicit width by default. Extend with `.cell-n` classes.
+ */
 
 .cell {
   height: 100%;
@@ -363,9 +360,9 @@ An example of various conventions.
   background-color: #fffdec;
 }
 
-/* ============================================================ *\
-     > Cell Dimensions
-\* ============================================================ */
+/* ============================================================
+   >> Cell Dimensions
+   ============================================================ */
 
 .cell-1 { width: 10%; }
 .cell-2 { width: 20%; }
@@ -373,9 +370,9 @@ An example of various conventions.
 .cell-4 { width: 40%; }
 .cell-5 { width: 50%; }
 
-/* ============================================================ *\
-     > Cell Modifiers
-\* ============================================================ */
+/* ============================================================
+   >> Cell Modifiers
+   ============================================================ */
 
 .cell--detail,
 .cell--important {
